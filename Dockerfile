@@ -79,6 +79,13 @@ RUN for repo in \
     https://github.com/BadCafeCode/masquerade-nodes-comfyui.git \
     https://github.com/1038lab/ComfyUI-RMBG.git \
     https://github.com/M1kep/ComfyLiterals.git; \
+    https://github.com/facok/ComfyUI-HunyuanVideoMultiLora.git \
+    https://github.com/pollockjj/ComfyUI-MultiGPU.git \
+    https://github.com/regiellis/ComfyUI-EasyColorCorrector.git \
+    https://github.com/aria1th/ComfyUI-LogicUtils.git \
+    https://github.com/wywywywy/ComfyUI-pause.git \
+    https://github.com/StableLlama/ComfyUI-basic_data_handling.git \
+    https://github.com/xmarre/TorchCompileModel_LoRASafe.git \
     do \
         cd /ComfyUI/custom_nodes; \
         repo_dir=$(basename "$repo" .git); \
